@@ -74,7 +74,7 @@ font-family: 'Open Sans', sans-serif; */
 
   #description {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.6em;
+    font-size: x-large;
     width: 1109px;
     text-align: center;
     letter-spacing: 1.1px; 
@@ -430,7 +430,7 @@ div.modal-body > div {
 
 #team_photos img {
   width: 277px;
-  height: 277px;
+  height: auto;
 }
 
 .team_headers {
@@ -528,6 +528,12 @@ div.modal-body > div {
          padding-bottom: 2em;
          width: 100%;
        }
+       .row {
+         display: block !important;
+       }
+       .step_descriptions {
+         width: 55%;
+       }
        .contact_portion {
         padding: 3em !important;
       }
@@ -564,11 +570,34 @@ div.modal-body > div {
         text-align: justify;
         width: 100%;
       }
+      .modal-content{
+        height: auto;
+      }
+      .modalSuccess{
+        padding-bottom: 2em;
+      }
       }
 
       @media (max-width: 575.98px) { 
+        .jumbotron {
+          height: 85vh;
+        }
         #team_photos {
           display: inline-block;
+        }
+        #about_image {
+          display: none;
+        }
+        .navbar-brand {
+          padding-left: 1em;
+          font-size: auto;
+        }
+        #about_description_title {
+          padding-top: 3em;
+          text-align: center;
+        }
+        #about_description{
+          text-align: justify;
         }
         #team {
           height: 100%;
@@ -598,10 +627,35 @@ div.modal-body > div {
           width: 100%;
         }
         #page_break {
-          height: 230px;
+          height: 160px;
+        }
+        .contact_portion {
+          padding: 3em !important;
         }
         #contact {
-          display: none;
+          height: 100%;
+          display: inline-block;
+        }
+        .h2_contact{
+          font-size: xx-large;
+        }
+        #description {
+          font-size: large;
+        }
+        #team_header {
+          font-size: xx-large;
+        }
+        .divider {
+          width: auto;
+          height: 3px;
+          margin: 3%;
+          background: #339ffc;
+        }
+        .modal-content {
+          height: 500px;
+        }
+        .imgSuccess {
+          margin-top: 60px;
         }
         .step_box.col {
           display: table;

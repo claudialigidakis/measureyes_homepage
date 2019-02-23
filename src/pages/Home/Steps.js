@@ -16,7 +16,7 @@ class Steps extends React.Component {
               <img className="step_images" alt="step one" src={step_one} />
               <br />
               <div className="step_number">STEP 1</div>
-              <p className="step_descriptions">Cameras are installed in optimized areas and set-up to record the number of pedestrians giving your displays attention..</p>
+              <p className="step_descriptions">Cameras are installed in optimized areas and set-up to record the number of pedestrians giving your displays attention.</p>
           </Col>
           <Col className="step_box">
               <img className="step_images" alt="step two" src={step_two} />
