@@ -9,16 +9,17 @@ font-family: 'Open Sans', sans-serif; */
 
   /* Header */
   .navbar {
-    margin-top: 15px;
+    padding: 0 !important;
+    margin-top: 10px;
   }
 
   .navbar-brand {
-      display: inline-flex; 
-      padding-left: 25px;
+      display: flex; 
+      padding-left: 1.5em;
   }
 
   .header_div {
-    padding-right: 24px;
+    padding-right: 1em;
   }
 
   .nav-item {
@@ -56,10 +57,9 @@ font-family: 'Open Sans', sans-serif; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 0px !important;
     margin: 0px !important;
     border-radius: 0px !important;
-    height: 110vh;
+    height: 90vh;
   }
 
   /* DESCRIPTION */
@@ -203,6 +203,10 @@ font-family: 'Open Sans', sans-serif; */
   background: #339ffc;
 }
 
+#contact_mobile{
+  display: none;
+}
+
 .contact_portion {
   margin-top: auto;
   margin-bottom: auto;
@@ -328,12 +332,11 @@ form {
 /* Modals */
 .modal-content {
   border-radius: 47px !important;
-  height: 600px;
+  height: 580px;
   background-color: #1267af !important;
 }
 
 .modal-body {
-  margin-top: 4em;
   align-items: center;
   justify-content: center;
   display: grid;
@@ -392,6 +395,8 @@ form {
 
 div.modal-body > div {
   margin: 0 !important;
+  padding-top: .5em;
+  height: 100%;
 }
 
 #page_break{
@@ -513,6 +518,13 @@ div.modal-body > div {
      }
 
      @media (min-width: 576px) and (max-width: 768.88px) { 
+       #description {
+        font-size: large; 
+       }
+       #description_div {
+         min-height: 35vh;
+         padding: 2em;
+       }
        #team_photos {
         display: inline-block;
       }
@@ -576,9 +588,15 @@ div.modal-body > div {
       .modalSuccess{
         padding-bottom: 2em;
       }
+      .step_images{
+        width: unset;
       }
+    }
 
       @media (max-width: 575.98px) { 
+        .step_images{
+          width: unset;
+        }
         .jumbotron {
           height: 85vh;
         }
@@ -629,33 +647,17 @@ div.modal-body > div {
         #page_break {
           height: 160px;
         }
-        .contact_portion {
-          padding: 3em !important;
-        }
         #contact {
-          height: 100%;
-          display: inline-block;
-        }
-        .h2_contact{
-          font-size: xx-large;
+          display: none;
         }
         #description {
-          font-size: large;
+          font-size: medium;
+        }
+        #description_div {
+          padding: .5em;
         }
         #team_header {
           font-size: xx-large;
-        }
-        .divider {
-          width: auto;
-          height: 3px;
-          margin: 3%;
-          background: #339ffc;
-        }
-        .modal-content {
-          height: 500px;
-        }
-        .imgSuccess {
-          margin-top: 60px;
         }
         .step_box.col {
           display: table;

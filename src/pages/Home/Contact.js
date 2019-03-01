@@ -10,11 +10,13 @@ import SubscribeSection from './Subscribe_Section'
 class Contact extends React.Component {
     render() {
         return (
+        <div>
             <Container id="contact" fluid>
-                    <ContactSection />
-                <div className="divider"></div>
+                <ContactSection />
+                    <div className="divider"></div>
                 <SubscribeSection />
             </Container >
+        </div>
         );
     }
 }

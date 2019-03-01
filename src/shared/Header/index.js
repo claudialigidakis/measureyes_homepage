@@ -34,7 +34,7 @@ class Header extends React.Component {
                             </div>
                             <div className="header_div">
                                 <NavItem>
-                                    <NavLink href='/MeetTheTeam.html'>Meet The Team</NavLink>
+                                    <NavLink href='/MeetTheTeam.html'>Team</NavLink>
                                 </NavItem>
                             </div>
                             <div id="contactLinkBox">
