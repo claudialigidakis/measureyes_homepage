@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Input, Button, Modal, FormGroup, ModalBody, Col, Form
+  Input, Button, Modal, FormGroup, ModalBody, Col, Form, ModalHeader
 } from 'reactstrap';
 import success_symbol from '../../images/success_symbol.png';
 
@@ -53,6 +53,7 @@ class ContactSection extends React.Component {
           <Button type="button" className="custom_button" onClick={this.toggle_form}>Send a Message</Button>
         </div>
         <Modal isOpen={this.state.modal_state} toggle={this.toggle_form}>
+        <ModalHeader toggle={this.toggle_form}></ModalHeader>
           <ModalBody>
             <div className="subscribe_div">
               <h2 className="h2_contact">CONTACT US</h2>
@@ -81,6 +82,7 @@ class ContactSection extends React.Component {
         </Modal>
 
         <Modal isOpen={this.state.modal_success} toggle={this.toggle_success}>
+        <ModalHeader toggle={this.toggle_success}></ModalHeader>
           <ModalBody>
             <div className="imgSuccessDiv">
               <img className="imgSuccess" alt="success symbol" src={success_symbol} />

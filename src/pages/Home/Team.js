@@ -30,7 +30,7 @@ class Team extends React.Component {
               <div className="linked_descriptions"><a href="https://www.linkedin.com/in/timsteines/">TIM STEINES  <img alt="linkedin_icon" className="linkedin_white" src={linkedin_white}></img></a></div>
           </Col>
           <Col className="team_div">
-              <div style={{textAlign: 'right'}} className="team_headers">UI/UX Developer</div>
+              <div style={{textAlign: 'right'}} className="team_headers">UI/UX Designer</div>
               <img alt="melissa" src={melissa} />
               <div className="linked_descriptions"><a href="https://www.linkedin.com/in/melissamkaiser/">MELISSA KAISER  <img alt="linkedin_icon" className="linkedin_white" src={linkedin_white}></img></a></div>
           </Col>

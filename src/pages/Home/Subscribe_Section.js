@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Input, Button, Modal, FormGroup, ModalBody, Col, Form
+  Input, Button, Modal, FormGroup, ModalBody, Col, Form, ModalHeader
 } from 'reactstrap';
 import success_symbol from '../../images/success_symbol.png';
 
@@ -49,6 +49,7 @@ class SubscribeSection extends React.Component {
         </Form>
         </div>
         <Modal isOpen={this.state.modal_state} toggle={this.toggle}>
+        <ModalHeader toggle={this.toggle}></ModalHeader>
           <ModalBody>
             <div className="imgSuccessDiv">
             <img className="imgSuccess" alt="success symbol" src={success_symbol} />
