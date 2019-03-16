@@ -34,7 +34,7 @@ font-family: 'Open Sans', sans-serif; */
     letter-spacing: .7px;
   }
 
-  #contactLink {
+  #contact-link {
     padding-bottom: 0;
     font-weight: bold;
     color: white;
@@ -128,7 +128,7 @@ font-family: 'Open Sans', sans-serif; */
 
 
   /* Steps */
-  #how {
+  #How {
     width: 100%;
     padding-top: 100px;
     padding-bottom: 80px;
@@ -180,7 +180,7 @@ font-family: 'Open Sans', sans-serif; */
   }
   /* Contact */
 
-#contact {
+#Contact {
   background-image: url('images/contact_background.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -285,7 +285,7 @@ button.custom_button:hover {
   border-color: #339ffc !important;
   background-color: #339ffc !important;
 }
-#contact > div:nth-child(1) > div > button {
+#Contact > div:nth-child(1) > div > button {
   border-color: inherit;
 }
 
@@ -417,7 +417,7 @@ div.modal-body > div {
 
   /* TEAM */
 
-#team {
+#Team {
   height: 680px;
   background-color: #339ffc;
 }
@@ -507,7 +507,7 @@ div.modal-body > div {
       #team_photos {
         display: inline-block;
       }
-      #team {
+      #Team {
         height: 100%;
       }
       .team_div {
@@ -516,7 +516,7 @@ div.modal-body > div {
       .contact_portion {
         padding: 3em !important;
       }
-      #contact {
+      #Contact {
         height: 100%;
         display: inline-block;
       }
@@ -539,7 +539,7 @@ div.modal-body > div {
        #team_photos {
         display: inline-block;
       }
-      #team {
+      #Team {
         height: 100%;
       }
       .team_div {
@@ -560,7 +560,7 @@ div.modal-body > div {
        .contact_portion {
         padding: 3em !important;
       }
-      #contact {
+      #Contact {
         height: 100%;
         display: inline-block;
       }
@@ -630,7 +630,7 @@ div.modal-body > div {
         #about_description{
           text-align: justify;
         }
-        #team {
+        #Team {
           height: 100%;
         }
         .team_div {
@@ -660,7 +660,7 @@ div.modal-body > div {
         #page_break {
           height: 160px;
         }
-        #contact {
+        #Contact {
           display: none;
         }
         #description {

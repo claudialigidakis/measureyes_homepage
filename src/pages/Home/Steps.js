@@ -10,7 +10,7 @@ import step_three from '../../images/alert_icon.png'
 class Steps extends React.Component {
   render() {
     return (
-      <Container id="how" fluid>
+      <Container id="How" fluid>
         <Row>
           <Col className="step_box">
               <img className="step_images" alt="step one" src={step_one} />

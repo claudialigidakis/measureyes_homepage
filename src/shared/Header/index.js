@@ -5,16 +5,19 @@ import {
     NavbarToggler,
     NavbarBrand,
     Nav,
-    NavItem,
-    NavLink
+    NavItem
 } from 'reactstrap';
-
+//NavFunctionality
+import { BrowserRouter } from 'react-router-dom'
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+//Images
 import Logo from '../../images/navbar_logo.png';
 const Img = <img alt="logo" src={Logo} height="58px" width="357px"></img>;
 
 class Header extends React.Component {
     render() {
         return (
+            <BrowserRouter>
                 <Navbar expand="md">
                     <NavbarBrand href="/">
                         {Img}
@@ -24,27 +27,28 @@ class Header extends React.Component {
                         <Nav className="ml-auto" navbar>
                             <div className="header_div">
                                 <NavItem>
-                                    <NavLink href='/About.html'>About</NavLink>
+                                    <NavLink className="nav-link" href="/#About" to="/#About" activeClassName="selected">About</NavLink>
                                 </NavItem>
                             </div>
                             <div className="header_div">
                                 <NavItem>
-                                    <NavLink href='/Product.html'>Product</NavLink>
+                                    <NavLink className="nav-link" href='/#How' to="/#How">Product</NavLink>
                                 </NavItem>
                             </div>
                             <div className="header_div">
                                 <NavItem>
-                                    <NavLink href='/MeetTheTeam.html'>Team</NavLink>
+                                    <NavLink className="nav-link" href='/#Team' to="/#Team">Team</NavLink>
                                 </NavItem>
                             </div>
                             <div id="contactLinkBox">
                                 <NavItem>
-                                    <NavLink id="contactLink" href="/Contact.html">Contact Us</NavLink>
+                                    <NavLink className="nav-link" id="contact-link" href="/#Contact" to="/#Contact">Contact Us</NavLink>
                                 </NavItem>
                             </div>
                         </Nav>
                     </Collapse>
                 </Navbar>
+            </BrowserRouter>
         );
     }
 }

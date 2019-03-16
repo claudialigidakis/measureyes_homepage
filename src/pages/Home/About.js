@@ -9,7 +9,7 @@ import photo_group from '../../images/photo_group.png'
 class About extends React.Component {
     render() {
         return (
-            <Container fluid>
+            <Container id="About" fluid>
                 <div id="photo_group_div">
                     <img id="photo_group" alt="about" src={photo_group} />
                 </div>

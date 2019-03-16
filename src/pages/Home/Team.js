@@ -10,7 +10,7 @@ import linkedin_white from '../../images/linkedin_white.png';
 class Team extends React.Component {
   render() {
     return (
-      <Container id="team" fluid>
+      <Container id="Team" fluid>
           <h1 id="team_header">MEET THE TEAM</h1>
         <div id="team_photos">
           <Col className="team_div">
